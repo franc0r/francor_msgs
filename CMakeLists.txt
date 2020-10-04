@@ -53,8 +53,10 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   SensorHeadCmd.msg
+  ManipulatorCmd.msg
   RoboticArmCmd.msg
-  )
+  ServoLx16a.msg
+)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
